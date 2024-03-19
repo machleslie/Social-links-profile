@@ -34,6 +34,17 @@ footer {
   margin-top: 5%;
   border-radius: 20px;
   padding: 2%;
+  font-size: 1rem;
+}
+@media screen and (max-width:375px){
+  .main{
+    font-size: 22rem;
+
+  }
+  .links > a {
+    font-size: 17rem;
+  
+}
 }
 .links {
   display: flex;
@@ -64,4 +75,5 @@ h4 {
 }
 p {
   margin: 5%;
+  font-size: 14px;
 }
